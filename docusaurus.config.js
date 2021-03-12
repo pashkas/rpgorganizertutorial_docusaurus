@@ -9,6 +9,7 @@ module.exports = {
   organizationName: 'РПГ Органайзер', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   plugins: [
+    'docusaurus-plugin-auto-sidebars',
     '@docusaurus/plugin-ideal-image',
     [require.resolve('@cmfcmf/docusaurus-search-local'), {
       language: ['en', 'ru'],
@@ -40,7 +41,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebars.auto.js'),
           routeBasePath: '/'
         },
         theme: {
