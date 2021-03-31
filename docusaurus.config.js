@@ -1,13 +1,13 @@
 module.exports = {
   title: 'РПГ Органайзер - туториал',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://pashkas.github.io',
+  baseUrl: '/rpgorganizertutorial.github.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'РПГ Органайзер', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'pashkas', // Usually your GitHub org/user name.
+  projectName: 'rpgorganizertutorial.github.io', // Usually your repo name.
   plugins: [
     'docusaurus-plugin-auto-sidebars',
     '@docusaurus/plugin-ideal-image',
